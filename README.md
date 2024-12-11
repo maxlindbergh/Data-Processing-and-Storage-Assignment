@@ -17,6 +17,6 @@
    - Keys must be strings, and values must be integers. Using other types will result in a `TypeError`.  
    - The `get` method only retrieves committed values, so uncommitted changes are not visible.  
 
-## ## Assignment Improvement Suggestions
+## Assignment Improvement Suggestions
 
 To make this assignment more structured and effective as an official assignment, the instructions should explicitly define expected behaviors for edge cases, such as attempting to retrieve keys that are modified but not yet committed. Additionally, a requirement for automated test cases could be included to evaluate the code more consistently and reduce grading subjectivity. Providing example input-output scenarios for all methods would clarify expectations for students. Lastly, expanding the functionality to include multiple concurrent transactions (with proper isolation levels) could introduce more complexity and realism to the assignment.
